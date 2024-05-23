@@ -1,0 +1,35 @@
+*,
+* ::before,
+* ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#idnumber {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: salmon;
+}
+
+#output {
+    margin-top: 20px;
+}
+
